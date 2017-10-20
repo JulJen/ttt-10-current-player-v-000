@@ -14,7 +14,6 @@ and uses the #turn_count method to determine if it is "X"'s turn or "O"'s. If th
 
 def current_player(board) #current_player method takes in an argument of the game board
   turn_count(board).even? ? board = "X" : board = "O"
-  end
 end
 
 
