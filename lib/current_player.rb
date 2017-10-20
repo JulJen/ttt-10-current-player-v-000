@@ -10,12 +10,21 @@ def turn_count(board)
   count
 end
 
-# current_player method takes in an argument of the game board and uses the #turn_count method to determine if it is "X"'s turn or "O"'s. If the turn count is an even number, the #current_player method returns "X", otherwise, returns "O".
+and uses the #turn_count method to determine if it is "X"'s turn or "O"'s. If the turn count is an even number, the #current_player method returns "X", otherwise, returns "O".
 
-def current_player(board)
-  if turn_count(board).even?
+def current_player(board) #current_player method takes in an argument of the game board 
+  if turn_count(board).even? #block method determines if "X" "
     board = "X"
   else
     board = "O"
   end
 end
+
+
+# def current_player(board)
+#   if turn_count(board).even? 
+#     board = "X"
+#   else
+#     board = "O"
+#   end
+# end
