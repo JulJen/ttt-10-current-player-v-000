@@ -10,7 +10,7 @@ def turn_count(board)
   count
 end
 
-and uses the #turn_count method to determine if it is "X"'s turn or "O"'s. If the turn count is an even number, the #current_player method returns "X", otherwise, returns "O".
+ #turn_count method to determine if it is "X"'s turn or "O"'s. If the turn count is an even number, the #current_player method returns "X", otherwise, returns "O".
 
 def current_player(board) #current_player method takes in an argument of the game board
   turn_count(board).even? ? board = "X" : board = "O"
