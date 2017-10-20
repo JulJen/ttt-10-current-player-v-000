@@ -20,5 +20,4 @@ def current_player(board)
   end
 end
 
-current_player
-end
+
