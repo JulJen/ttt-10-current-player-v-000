@@ -19,5 +19,3 @@ def current_player(board)
   #   turn_count(board) == "O"
   end
 end
-
-
